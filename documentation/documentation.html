@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Meta -->
+      <meta name="description" content="">
+      <meta name="author" content="WRAPCODERS">
+      <!-- Favicon -->
+      <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+      <title>Documentation | Adata</title>
+      <!-- vendor css -->
+      <link rel="stylesheet" href="assets/lib/fortawesome/fontawesome-free/css/all.min.css">
+      <link rel="stylesheet" href="assets/lib/bootstrap/bootstrap.css">
+      <link rel="stylesheet" href="assets/lib/perfect-scrollbar/perfect-scrollbar.css">
+      <link rel="stylesheet" href="assets/lib/ionicons/css/ionicons.min.css">
+      <link rel="stylesheet" href="assets/lib/prismjs/themes/prism-vs.css">
+      <link rel="stylesheet" href="assets/lib/jstree/themes/default/style.min.css">
+      <link rel="stylesheet" href="assets/css/app.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+   <body  data-spy="scroll" data-target="#navDocs" data-offset="120">
+      <div id="sidebarMenu" class="sidebar sidebar-fixed wd-250 t-0">
+            <div class="docs-logo"><img src="assets/images/logo.png" class="img-fluid" alt=""> </div>
+         <div class="sidebar-body">
+            <nav id="navDocs" class="nav nav-docs">
+               <a href="#introduction" class="nav-link">Introduction</a>
+               <a href="#templatefeatures" class="nav-link">Teamlate Features</a>
+               <a href="#filestructure" class="nav-link">File Structure</a>
+               <a href="#nodejs" class="nav-link">Node JS</a>
+               <a href="#gulpjs" class="nav-link">Gulp JS</a>
+               <a href="#sass" class="nav-link">SASS</a>
+               <a href="#stylesheet" class="nav-link">Stylesheet</a>
+               <a href="#scripts" class="nav-link">Scripts</a>
+               <a href="#headerstructure" class="nav-link">Header</a>
+               <a href="#sidebarstructure" class="nav-link">Sidebar</a>
+               <a href="#contentstructure" class="nav-link">Content</a>
+               <a href="#footerstructure" class="nav-link">Footer</a>
+               <a href="#fontsetting" class="nav-link">Font Setting</a>
+               <a href="#references" class="nav-link">References</a>
+               <a href="#customersupport" class="nav-link">Customer Support</a>
+            </nav>
+         </div>
+         <!-- sidebar-body -->
+      </div>
+      <!-- sidebar -->	  
+      <div class="content">
+         <div class="tx-color-03">
+            <h4 class="text-dark"><strong>Adata</strong> - Modern & Minimal Multipurpose Bootstrap Admin Dashboard</h4>
+            <p>Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form<a href="https://wrapcoders.xyz/adata" target="_blank"> here</a>.</p>
+            <p>Thanks so much!</p>
+            <ul class="list-unstyled">
+               <li><strong class="text-dark">Author:</strong> WRAPCODERS</li>
+               <li><strong class="text-dark">Version:</strong> 1.0</li>
+               <li><strong class="text-dark">Contact:</strong> <a href="https://wrapcoders.xyz/adata" target="_blank">Support</a></li>
+            </ul>
+            <hr class="mg-y-50">
+            <h4 id="introduction" class="mg-b-20">Introduction</h4>
+            <p>Adata is the ultimate admin template for Twitter Bootstrap. It’s what we’re calling the best the admin template for Bootstrap to date. It has a unique, pixel-perfect design, and many fully customized widgets. We gave special attention to design and focussed on building a versatile admin template that could work for an almost unlimited range of applications.</p>
+            <p>This part of the doc will help you to quick start your project and will give you a basic idea about how this template work. For you to get start open the template download package.</p>
+            <hr class="mg-y-50">
+            <h4 id="templatefeatures" class="mg-b-20">Template Features</h4>
+            <p>Here is only a small list of available features of in the Adata:</p>
+            <ul class="list-circle">
+               <li>HTML5 & CSS3</li>
+               <li>Multiple Dashboard</li>
+               <li>Fully Responsive Design</li>
+               <li>Clean and Valid Code</li>
+               <li>Built with Bootstrap 4.x.x</li>
+               <li>300+ Pre-made HTML5 Pages</li>
+               <li>100+ UI Components</li>
+               <li>50+ Widgets</li>
+               <li>90+ jQuery Plugins</li>
+               <li>Build With Sass</li>
+               <li>NPM Compatibility</li>
+               <li>Gulpfile Included</li>
+               <li>Template Customization Panel</li>
+               <li>Multiple Skin Options</li>
+               <li>Multiple Layouts Options</li>
+               <li>15 Email Templates</li>
+               <li>Lightweight and Super Fast</li>
+               <li>Developer friendly code</li>
+               <li>Drag and Drop File Uploader</li>
+               <li>Custom Checkbox & Radio Buttons</li>
+               <li>Easy to Customize</li>
+               <li>Cross Browser Compatibility</li>
+               <li>Multiple Color Variations</li>
+               <li>Login, Sign Up, and Lock Screen pages</li>
+               <li>Lifetime Free Updates</li>
+               <li>Awesome Documentation and Support</li>
+            </ul>
+            <p class="font-weight-bold mt-5 text-dark">Support does include:</p>
+            <ul class="list-circle">
+               <li>Answering your questions or problems regarding the template.</li>
+               <li>Giving solution to the Bugs reported.</li>
+            </ul>
+            <p class="font-weight-bold mt-5 text-dark">Support does not include:</p>
+            <ul class="list-circle">
+               <li>Custmaization Work</li>
+               <li>Any Installation Work</li>
+               <li>Support for any Third Party Plugins / Software</li>
+               <li>Solve bug in your implemented template</li>
+               <li>Support or Guide for How to integrate with any technologies (like, PHP, .net, Java etc)</li>
+            </ul>
+            <hr class="mg-y-50">
+            <h4 id="filestructure" class="mg-b-20">File Structure</h4>
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="jstree-file-structure">
+                     <ul>
+                        <li class="jstree-open">
+                           Adata
+                           <ul>
+                              <li class="jstree-open">
+                                 vertical-menu
+                                 <ul>
+                                    <li class="jstree-open">
+                                       Assets
+                                       <ul>
+                                          <li>CSS</li>
+                                          <li>Images</li>
+                                          <li>JS</li>
+                                          <li>Plugins (90+ plugins)</li>
+                                          <li>Vendor</li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="jstree-open">
+                                 horizontal-menu
+                                 <ul>
+                                    <li class="jstree-open">
+                                       Assets
+                                       <ul>
+                                          <li>CSS</li>
+                                          <li>Images</li>
+                                          <li>JS</li>
+                                          <li>Plugins (90+ plugins)</li>
+                                          <li>Vendor</li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li data-jstree='{"type":"folder"}'>gulpfile.js</li>
+                              <li data-jstree='{"type":"folder"}'>package.json</li>
+                              <li data-jstree='{"type":"folder"}'>package-lock.json</li>
+                              <li data-jstree='{"type":"folder"}'>
+								 documentation
+                                 <ul>
+									<li data-jstree='{"type":"folder"}'>documentation.html</li>
+									<li data-jstree='{"type":"folder"}'>changelog.html</li>
+                                 </ul>
+							  </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <hr class="mg-y-50">
+            <h4 id="nodejs" class="mg-b-25">Node JS</h4>
+            <p>Before installing gulp and sass first you must have NodeJs installed, NodeJS will have npm (node packaged modules).</p>
+            <p>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.</p>
+            <p class="mg-b-25">Online Reference: <a href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
+            <h6 class="mg-t-50">Installing in Windows</h6>
+            <p>Simply download the <a href="https://nodejs.org/en/#download" target="_blank">Windows Installer</a> direct from the nodejs.org web site.</p>
+            <h6 class="mg-t-50">Installing in Mac</h6>
+            <p>Simply download the <a href="https://nodejs.org/en/#download" target="_blank">Macintosh Installer</a> direct from the nodejs.org web site.</p>
+            <p>If you want to download the package with bash:</p>
+            <pre><code class="language-html">curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*&gt;node-(.*)\.pkg.*|\1|p')}.pkg" &gt; "$HOME/Downloads/node-latest.pkg" &amp;&amp; sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"</code></pre>
+            <p>Using Homebrew:</p>
+            <pre><code class="language-html">brew install node</code></pre>
+            <hr class="mg-y-50">
+            <h4 id="gulpjs" class="mg-b-20">Gulp JS</h4>
+            <p>Before installing gulp first you must have NodeJs installed, NodeJS will have npm (node packaged modules).</p>
+            <p>Gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.</p>
+            <p class="mg-b-25">Online Reference: <a href="https://gruntjs.com/">https://gruntjs.com/</a></p>
+            <h6>Installing the CLI</h6>
+            <p>If you have previously installed a version of gulp globally, please run npm rm --global gulp to make sure your old version doesn't collide with gulp-cli.</p>
+            <pre><code class="language-html">$ npm install -g gulp-cli</code></pre>
+            <p>Verify that gulp is successfully installed, and version of installed gulp will appear.</p>
+            <pre><code class="language-html">$ gulp --version</code></pre>
+            <hr class="mg-y-50">
+            <h4 id="sass" class="mg-b-20">SASS</h4>
+            <p>Before running grunt first you must check if you have sass installed in your machine. You can verify that sass is already installed by running the command.</p>
+            <pre><code class="language-html">$ sass --version</code></pre>
+            <p>If version appear, it means sass already installed in your machine and proceed to the next topic, otherwise follow the instructions below on installing sass.</p>
+            <h6>Installing in Windows</h6>
+            <p>Before you start using Sass you will need to install Ruby. The fastest way to get Ruby on your Windows computer is to use <a href="http://rubyinstaller.org/" target="_blank">Ruby Installer</a>. It's a single-click installer that will get everything set up for you super fast. </p>
+            <h6>Installing in Mac</h6>
+            <p>If you prefer the command line over an application then getting Sass set up is a fairly quick process. Sass has a Ruby dependency but if you're using a Mac, congratulations, Ruby comes pre-installed. </p>
+            <h6>Install SASS</h6>
+            <p>Ruby uses Gems to manage its various packages of code like Sass. In your open terminal or cmd window: </p>
+            <pre><code class="language-html">$ gem install sass</code></pre>
+            <p>You should now have Sass installed, but it never hurts to double-check.</p>
+            <pre><code class="language-html">$ sass --version</code></pre>
+            <p>Online Reference: <a href="http://sass-lang.com/install">http://sass-lang.com/install</a></p>
+            <pre><code class="language-html"></code></pre>
+            <hr class="mg-y-50">
+            <h4 id="stylesheet" class="mg-b-20">Stylesheet</h4>
+            <p>Include the following stylesheet into the head of your page. This must be present in all of your pages.</p>
+            <pre><code class="language-html">&lt;!-- BEGIN: Custom CSS-->  
+&lt;link type="text/css" rel="stylesheet" href="../../assets/css/style.css"/>
+&lt;!-- END: Custom CSS-->
+&lt;!-- BEGIN: Favicon-->
+&lt;link type="image/x-icon" rel="icon" href="../../assets/images/favicon.ico">
+&lt;!-- END: Favicon--></code></pre>
+            <hr class="mg-y-50">
+            <h4 id="scripts" class="mg-b-20">Scripts</h4>
+            <p>Include the following scripts into the end of the body your page. This must be present in all of your pages.</p>
+            <pre><code class="language-html">&lt;!-- BEGIN: Global JS -->
+&lt;script src="../../assets/js/plugin-bundle.js">&lt;/script>
+&lt;script src="../../assets/js/app.js">&lt;/script>
+&lt;script src="../../assets/js/adata-init.js">&lt;/script>
+&lt;!-- END: Global JS--></code></pre>
+            <hr class="mg-y-50">
+            <h4 id="headerstructure" class="mg-b-20">Header</h4>
+            <p>Below is the starter template structure that you can use in creating a new dashboard page.</p>
+            <pre class="ht-500"><code class="language-html">&lt;!--================================-->
+&lt;!-- Page Header Start -->
+&lt;!--================================-->
+&lt;div class="page-header">
+   &lt;div class="search-form">
+	  &lt;form action="#" method="GET">
+		 &lt;div class="input-group">
+			&lt;input class="form-control search-input typeahead" name="search" placeholder="Type something..." type="text"/>
+			&lt;span class="input-group-btn">&lt;span id="close-search">&lt;i data-feather="x" class="wd-16">&lt;/i>&lt;/span>&lt;/span>
+		 &lt;/div>
+	  &lt;/form>
+   &lt;/div>
+   &lt;nav class="navbar navbar-default align-items-center">
+	  &lt;!--================================-->
+	  &lt;!-- Brand and Logo Start -->
+	  &lt;!--================================-->
+	  &lt;div class="navbar-header">
+	  
+	  &lt;/div>
+	  &lt;!--/ Brand and Logo End -->
+	  &lt;!--================================-->
+	  &lt;!-- Header Right Start -->
+	  &lt;!--================================-->
+	  &lt;div class="header-right">
+	  
+	  &lt;/div>
+	  &lt;!--/ Header Right End -->
+   &lt;/nav>
+   &lt;div class="pd-y-10 pd-x-30 d-flex justify-content-between align-items-center header-bottom">
+
+   &lt;/div>
+&lt;/div>
+&lt;!--/ Page Header End --> </code></pre>
+            <hr class="mg-y-50">
+            <h4 id="sidebarstructure" class="mg-b-20">Sidebar</h4>
+            <pre class="ht-500"><code class="language-html"> &lt;!--================================-->
+ &lt;!-- Page Sidebar Start -->
+ &lt;!--================================-->
+ &lt;div class="page-sidebar">
+	&lt;div class="logo">
+	   &lt;a class="logo-img" href="ecommerce-index.html">		
+	   &lt;img class="desktop-logo" src="../../assets/images/logo.png" alt="">
+	   &lt;img class="small-logo" src="../../assets/images/small-logo.png" alt="">
+	   &lt;/a>			
+	   &lt;a id="sidebar-toggle-button-close">&lt;i class="wd-20 ht-20" data-feather="x">&lt;/i> &lt;/a>
+	&lt;/div>
+	&lt;!--================================-->
+	&lt;!-- Sidebar Menu Start -->
+	&lt;!--================================-->
+	&lt;div class="page-sidebar-inner">
+	   &lt;div class="page-sidebar-menu">
+		  &lt;ul class="accordion-menu">
+			 &lt;li class="menu-label">Dashboard&lt;/li>
+			 &lt;li class="open active">
+				&lt;a href="">
+				   &lt;svg  class="adata-svg-icon">
+					  &lt;g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						 &lt;rect x="0" y="0" width="24" height="24"/>
+						 &lt;path d="M3,4 C3,3.44771525 3.44771525,3 4,3 L11,3 L11,5 C11,9.418278 7.418278,13 3,13 L3,4 Z M21,4 L21,13 C16.581722,13 13,9.418278 13,5 L13,3 L20,3 C20.5522847,3 21,3.44771525 21,4 Z" fill="#000000" opacity="0.3"/>
+						 &lt;path d="M4,21 C3.44771525,21 3,20.5522847 3,20 L3,13 C6.3137085,13 9,15.6862915 9,19 L9,21 L4,21 Z M20,21 L15,21 L15,19 C15,15.6862915 17.6862915,13 21,13 L21,20 C21,20.5522847 20.5522847,21 20,21 Z" fill="#000000"/>
+					  &lt;/g>
+				   &lt;/svg>
+				   &lt;span>eCommerce&lt;/span>&lt;i class="accordion-icon fa fa-angle-left">&lt;/i>
+				&lt;/a>
+				&lt;ul class="sub-menu" style="display: block;">
+				   &lt;!-- Active Page -->
+				   &lt;li class="active">&lt;a href="ecommerce-index.html">Dashboard&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="ecommerce-order.html">Order&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="ecommerce-product.html">Products&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="ecommerce-product-detail.html">Product Detail&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="ecommerce-customer.html">Customer&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="ecommerce-review.html">Review&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="ecommerce-cart.html">Cart&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="ecommerce-checkout.html">Checkout&lt;/a>&lt;/li>
+				&lt;/ul>
+			 &lt;/li>
+			 &lt;li>
+				&lt;a href="">
+				   &lt;svg  class="adata-svg-icon">
+					  &lt;g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						 &lt;rect x="0" y="0" width="24" height="24"/>
+						 &lt;path d="M4,4 L20,4 C21.1045695,4 22,4.8954305 22,6 L22,18 C22,19.1045695 21.1045695,20 20,20 L4,20 C2.8954305,20 2,19.1045695 2,18 L2,6 C2,4.8954305 2.8954305,4 4,4 Z" fill="#000000" opacity="0.3"/>
+						 &lt;path d="M18.5,11 L5.5,11 C4.67157288,11 4,11.6715729 4,12.5 L4,13 L8.58578644,13 C8.85100293,13 9.10535684,13.1053568 9.29289322,13.2928932 L10.2928932,14.2928932 C10.7456461,14.7456461 11.3597108,15 12,15 C12.6402892,15 13.2543539,14.7456461 13.7071068,14.2928932 L14.7071068,13.2928932 C14.8946432,13.1053568 15.1489971,13 15.4142136,13 L20,13 L20,12.5 C20,11.6715729 19.3284271,11 18.5,11 Z" fill="#000000"/>
+						 &lt;path d="M5.5,6 C4.67157288,6 4,6.67157288 4,7.5 L4,8 L20,8 L20,7.5 C20,6.67157288 19.3284271,6 18.5,6 L5.5,6 Z" fill="#000000"/>
+					  &lt;/g>
+				   &lt;/svg>
+				   &lt;span>Cryptocurrency&lt;/span>&lt;i class="accordion-icon fa fa-angle-left">&lt;/i>
+				&lt;/a>
+				&lt;ul class="sub-menu">
+				   &lt;li>&lt;a href="../cryptocurrency/cryptocurrency-index.html">Dashboard&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="../cryptocurrency/cryptocurrency-exchange.html">Exchange&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="../cryptocurrency/cryptocurrency-buy-sell.html">Buy Sell&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="../cryptocurrency/cryptocurrency-wallet.html">Wallet&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="../cryptocurrency/cryptocurrency-marketcap.html">Marketcap&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="../cryptocurrency/cryptocurrency-news.html">News&lt;/a>&lt;/li>
+				&lt;/ul>
+			 &lt;/li>
+			 &lt;li>
+				&lt;a href="">
+				   &lt;svg  class="adata-svg-icon">
+					  &lt;g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						 &lt;rect x="0" y="0" width="24" height="24"/>
+						 &lt;path d="M13,18.9450712 L13,20 L14,20 C15.1045695,20 16,20.8954305 16,22 L8,22 C8,20.8954305 8.8954305,20 10,20 L11,20 L11,18.9448245 C9.02872877,18.7261967 7.20827378,17.866394 5.79372555,16.5182701 L4.73856106,17.6741866 C4.36621808,18.0820826 3.73370941,18.110904 3.32581341,17.7385611 C2.9179174,17.3662181 2.88909597,16.7337094 3.26143894,16.3258134 L5.04940685,14.367122 C5.46150313,13.9156769 6.17860937,13.9363085 6.56406875,14.4106998 C7.88623094,16.037907 9.86320756,17 12,17 C15.8659932,17 19,13.8659932 19,10 C19,7.73468744 17.9175842,5.65198725 16.1214335,4.34123851 C15.6753081,4.01567657 15.5775721,3.39010038 15.903134,2.94397499 C16.228696,2.49784959 16.8542722,2.4001136 17.3003976,2.72567554 C19.6071362,4.40902808 21,7.08906798 21,10 C21,14.6325537 17.4999505,18.4476269 13,18.9450712 Z" fill="#000000" fill-rule="nonzero"/>
+						 &lt;circle fill="#000000" opacity="0.3" cx="12" cy="10" r="6"/>
+					  &lt;/g>
+				   &lt;/svg>
+				   &lt;span>Analytics&lt;/span>&lt;i class="accordion-icon fa fa-angle-left">&lt;/i>
+				&lt;/a>
+				&lt;ul class="sub-menu">
+				   &lt;li>&lt;a href="../analytic/analytic-index.html">Dashboard&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="../analytic/analytic-audience.html">Audience&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="../analytic/analytic-acquisition.html">Acquisition&lt;/a>&lt;/li>
+				   &lt;li>&lt;a href="../analytic/analytic-realtime.html">Realtime&lt;/a>&lt;/li>
+				&lt;/ul>
+			 &lt;/li>
+		  &lt;/ul>
+	   &lt;/div>
+	&lt;/div>
+ &lt;/div>
+ &lt;!--/ Sidebar Menu End --></code></pre>
+            <hr class="mg-y-50">
+            <h4 id="contentstructure" class="mg-b-20">Content</h4>
+            <pre class="ht-500"><code class="language-html"> &lt;!--================================-->
+ &lt;!-- Page Content Start -->
+ &lt;!--================================-->
+ &lt;div class="page-content">
+	&lt;!--================================-->
+	&lt;!-- Page Header Start -->
+	&lt;!--================================-->
+	&lt;div class="page-header">
+	   &lt;div class="search-form">
+		  &lt;form action="#" method="GET">
+			 &lt;div class="input-group">
+				&lt;input class="form-control search-input typeahead" name="search" placeholder="Type something..." type="text"/>
+				&lt;span class="input-group-btn">&lt;span id="close-search">&lt;i data-feather="x" class="wd-16">&lt;/i>&lt;/span>&lt;/span>
+			 &lt;/div>
+		  &lt;/form>
+	   &lt;/div>
+	   &lt;div class="pd-y-10 pd-x-30 d-flex justify-content-between align-items-center header-bottom">
+	   
+	   &lt;/div>
+	&lt;/div>
+	&lt;!--/ Page Header End -->   
+	&lt;!--================================-->
+	&lt;!-- Page Inner Start -->
+	&lt;!--================================-->
+	&lt;div class="page-inner">
+
+	&lt;/div>
+	&lt;!--/ Page Inner End -->
+ &lt;/div></code></pre>
+            <hr class="mg-y-50">
+            <h4 id="footerstructure" class="mg-b-20">Footer</h4>
+            <pre class="ht-500"><code class="language-html">&lt;!--================================-->
+&lt;!-- Page Footer Start -->	
+&lt;!--================================-->
+&lt;footer class="page-footer d-block d-sm-flex justify-content-between pd-x-20 pd-t-20 pd-b-15 pd-lg-x-30">
+   &lt;p class="mg-b-15 mg-sm-b-0">Copyright&copy; 2020 |  Created By  &lt;a href="https://wrapcoders.xyz/adata" target="_blank">WRAPCODERS&lt;/a>&lt;/p>
+   &lt;div class="d-block d-sm-flex">
+	  &lt;a href="" class="mr-3">About Us&lt;/a>
+	  &lt;a href="" class="mr-3">Terms & Condition&lt;/a>
+	  &lt;a href="" class="mr-3">Privacy & Policy&lt;/a>
+	  &lt;a href="">Contact Us&lt;/a>
+   &lt;/div>
+&lt;/footer>
+&lt;!--/ Page Footer End --></code></pre>
+            <hr class="mg-y-50">
+            <h4 id="fontsetting" class="mg-b-20">Font Setting</h4>
+            <p>To change the font-family you will have to edit the file css/style.css. If the font is a standard one, built the system by default, you can just write it here. <br> <code>body { font-family: "Poppins", sans-serif; } // or whatever you want (e.g. "lato")</code></p>
+            <p>Also you can use <a href="http://fonts.google.com">Google Font</a> and connect it to your website.</p>
+            <ol>
+               <li>Go to: <a href="http://fonts.google.com">http://www.google.com/fonts.</a></li>
+               <li>Choose the appropriate font.</li>
+               <li>Click the <strong>Quick-use</strong> button (<i class="fa fa-forward"></i>).</li>
+               <li>Choose the styles that you want;</li>
+               <li>Choose the character sets that you want.</li>
+               <li>Below that click on the <strong>@import</strong> tab and copy this line.</li>
+               <li>Paste this line to that <code>css/style.css</code> file on body tag instead of the default (e.g. <code>font-family: "Poppins", sans-serif; </code>)</li>
+            </ol>
+            <br>
+            <h6>Missing images in download package</h6>
+            <p>The images you see in the demo are use only for demo purposes only and is not allowed to be included in the download package.</p>
+            <hr class="mg-y-50">
+            <h4 id="references" class="mg-b-20">Source & Credit</h4>
+            <div class="row">
+               <aside class="col-md-6">
+                  <ul class="list-circle">
+                     <li><a href="https://getbootstrap.com/" target="_blank">Twitter Bootstrap</a></li>
+                     <li><a href="https://developer.snapappointments.com/bootstrap-select" target="_blank">Bootstrap Select</a></li>
+                     <li><a href="https://github.com/jdewit/bootstrap-timepicker" target="_blank">Bootstrap Timepicker</a></li>
+                     <li><a href="https://github.com/uxsolutions/bootstrap-datepicker" target="_blank">Bootstrap Dtepicker</a></li>
+                     <li><a href="http://fontawesome.io" target="_blank">Font Awesome</a></li>
+                     <li><a href="http://ionicons.com/" target="_blank">Ionicons</a></li>
+                     <li><a href="https://codemirror.net/" target="_blank">CodeMirror</a></li>
+                     <li><a href="http://datatables.net" target="_blank">DataTables</a></li>
+                     <li><a href="https://github.com/JeremyFagis/dropify" target="_blank">Dropify</a></li>
+                     <li><a href="https://www.dropzonejs.com/" target="_blank">Dropzonejs</a></li>
+                     <li><a href="http://fooplugins.com/plugins/footable-jquery/" target="_blank">FooTable</a></li>
+                     <li><a href="https://github.com/jaridmargolin/formatter.js" target="_blank">Formatterjs</a></li>
+                     <li><a href="https://fullcalendar.io/" target="_blank">FullCalendar</a></li>
+                     <li><a href="https://hpneo.dev/gmaps/" target="_blank">Gmapsjs</a></li>
+                     <li><a href="https://jquery.org/" target="_blank">jQuery</a></li>
+                     <li><a href="http://jqueryui.com" target="_blank">jQuery UI</a></li>
+                     <li><a href="https://www.pexels.com/" target="_blank">Pexels</a></li>
+                     <li><a href="https://jqueryvalidation.org/" target="_blank">jQuery Validation</a></li>
+                     <li><a href="https://www.jstree.com/" target="_blank">jsTree</a></li>
+                     <li><a href="http://www.daterangepicker.com/" target="_blank">Daterangepicker</a></li>
+                     <li><a href="https://github.com/T00rk/bootstrap-material-datetimepicker" target="_blank">Datetimepicker</a></li>
+                     <li><a href="https://github.com/bevacqua/dragula" target="_blank">Dragula</a></li>
+                     <li><a href="https://www.virtuosoft.eu/code/bootstrap-duallistbox/" target="_blank">Duallistbox</a></li>
+                     <li><a href="https://feathericons.com/" target="_blank">Feather Icon</a></li>
+                     <li><a href="http://flag-icon-css.lip.is/" target="_blank">Flag Icon</a></li>
+                     <li><a href="https://flatpickr.js.org/" target="_blank">Flatpickr</a></li>
+                     <li><a href="https://flow.org/" target="_blank">Flowjs</a></li>
+                     <li><a href="https://highlightjs.org/" target="_blank">Highlight</a></li>
+                     <li><a href="https://github.com/mariusschulz/jQuery.passwordStrength" target="_blank">jQuery Password Strength</a></li>
+                     <li><a href="http://ksylvest.github.io/jquery-growl/" target="_blank">Growl.js</a></li>
+                     <li><a href="https://github.com/thorst/jquery-idletimer" target="_blank">Idle Timer</a></li>
+                     <li><a href="http://anthonyterrien.com/demo/knob/" target="_blank">jQuery Knob</a></li>
+                     <li><a href="http://lab.hakim.se/ladda" target="_blank">Ladda</a></li>
+                     <li><a href="http://adamwdraper.github.com/Numeral-js/" target="_blank">Numeral</a></li>
+                     <li><a href="https://github.com/twitter/typeahead.js" target="_blank">Typeahead</a></li>
+                     <li><a href="http://www.getuikit.com" target="_blank">UIkit</a></li>
+                  </ul>
+               </aside>
+               <aside class="col-md-6">
+                  <ul class="list-circle">
+                     <li><a href="https://www.apexchat.com/" target="_blank">Apex Chart</a></li>
+                     <li><a href="http://chartjs.org/" target="_blank">Chart Js</a></li>
+                     <li><a href="https://gionkunz.github.io/chartist-js/" target="_blank">Chartist</a></li>
+                     <li><a href="http://www.flotcharts.org/" target="_blank">Flot Chart</a></li>
+                     <li><a href="http://morrisjs.github.io/morris.js/" target="_blank">Morris Chart</a></li>
+                     <li><a href="http://omnipotent.net/jquery.sparkline/" target="_blank">Chart Sparkline</a></li>
+                     <li><a href="http://malsup.com/jquery/block/" target="_blank">BlockUI</a></li>
+                     <li><a href="http://bootboxjs.com/" target="_blank">Bootbox</a></li>
+                     <li><a href="http://github.com/toopay/bootstrap-markdown" target="_blank">Bootstrap Markdown</a></li>
+                     <li><a href="https://github.com/mimo84/bootstrap-maxlength" target="_blank">Bootstrap Maxlength</a></li>
+                     <li><a href="http://davidstutz.de/bootstrap-multiselect/" target="_blank">Bootstrap Multiselect</a></li>
+                     <li><a href="https://developer.snapappointments.com/bootstrap-select" target="_blank">Bootstrap-select</a></li>
+                     <li><a href="https://cdnjs.com/libraries/bootstrap-slider" target="_blank">Bootstrap Slider</a></li>
+                     <li><a href="https://github.com/drvic10k/bootstrap-sortable" target="_blank">Bootstrap Sortable</a></li>
+                     <li><a href="https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/" target="_blank">Bootstrap Tagsinput</a></li>
+                     <li><a href="https://nosir.github.io/cleave.js/" target="_blank">CleaveJS</a></li>
+                     <li><a href="https://zenorocha.github.io/clipboard.js" target="_blank">Clipboard</a></li>
+                     <li><a href="https://fengyuanchen.github.io/cropperjs" target="_blank">Cropper</a></li>
+                     <li><a href="http://cryptofont.com" target="_blank">CryptoFont</a></li>
+                     <li><a href="http://opensource.org/" target="_blank">Popper</a></li>
+                     <li><a href="https://fonts.google.com/" target="_blank">Google Forts</a></li>
+                     <li><a href="https://www.10bestdesign.com/jqvmap/" target="_blank">Jqvmap</a></li>
+                     <li><a href="http://momentjs.com" target="_blank">Momentjs</a></li>
+                     <li><a href="https://github.hubspot.com/pace/docs/welcome/" target="_blank">Pace</a></li>
+                     <li><a href="http://parsleyjs.org" target="_blank">Parsleyjs</a></li>
+                     <li><a href="http://photoswipe.com" target="_blank">PhotoSwipe</a></li>
+                     <li><a href="http://www.techlaboratory.net/smartwizard" target="_blank">SmartWizard</a></li>
+                     <li><a href="http://www.jquery-steps.com" target="_blank">jQuery Steps</a></li>
+                     <li><a href="https://summernote.org" target="_blank">Summernote</a></li>
+                     <li><a href="https://sweetalert.js.org/" target="_blank">Sweetalert</a></li>
+                     <li><a href="https://github.com/CodeSeven/toastr" target="_blank">Toastr</a></li>
+                     <li><a href="https://www.jqueryscript.net/other/Drag-Drop-Image-Marker-Plugin-jQuery.html" target="_blank">Jquery Image Marker</a></li>
+                     <li><a href="https://masonry.desandro.com" target="_blank">Masonry</a></li>
+                     <li><a href="https://materialDesignIcons.com" target="_blank">MaterialDesignIcons</a></li>
+                     <li><a href="http://dbushell.com/" target="_blank">Nestable jQuery</a></li>
+                     <li><a href="https://refreshless.com/nouislider/" target="_blank">nouislider</a></li>
+                  </ul>
+               </aside>
+            </div>
+            <hr class="mg-y-50">
+            <h4 id="customersupport" class="mg-b-20">Customer Support</h4>
+            <p>You can request for support via email or themeforest item comments.</p>
+            <p>We use request help form in comments and email to manage customer support. Soon, as we grow, we will invest and find the best customer support system we can use to serve you better. For the meantime, submit a help request to the link given for any issues and concerns that you have. Don't worry, we will respond to you as quickly as we can. Thank you.</p>
+            <hr class="mg-y-50">
+            <p>Copyright &copy; 2020. All Rights Reserved. Created by: <a href="https://wrapcoders.xyz/adata" target="_blank">WRAPCODERS</a></p>
+         </div>
+      </div>
+      <!-- content -->
+      <script src="assets/lib/jquery/jquery.min.js"></script>
+      <script src="assets/lib/bootstrap/bootstrap.bundle.min.js"></script>
+      <script src="assets/lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+      <script src="assets/lib/feather-icons/feather.min.js"></script>
+      <script src="assets/lib/prismjs/prism.js"></script>
+      <script src="assets/lib/jstree/jstree.min.js"></script>
+      <script src="assets/js/app.js"></script>
+      <script>
+         $(function(){
+           'use strict'
+         // jsTree
+         $('#jstree-file-structure').jstree({
+         'core' : {
+         'check_callback' : true
+         },
+         'plugins' : [ 'types' ],
+         'types' : {
+         'default' : {
+         'icon' : 'fa fa-folder'
+         },
+         'html' : {
+         'icon' : 'fa fa-file-text'
+         },
+         'file' : {
+         'icon' : 'fa fa-file-text'
+         },
+         'jpg' : {
+         'icon' : 'fa fa-file-image'
+         },
+         'zip' : {
+         'icon' : 'fa fa-file-zip'
+         }
+         }
+         }); 
+         });
+      </script>
+   </body>
+</html>
