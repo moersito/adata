@@ -8,23 +8,22 @@ option, your source code is kept proprietary.
 #
 
 
-# **Need Commercial License???**
+## Need Commercial License???
 #### `FEEL FREE TO CONTACT WITH US`
 
 ##### Skype: *swapan730*
 ##### Whatsapp: *01765952765*
 ##### Email: *swapan730@gmail.com*
 
+#### [NOTE: AVAIABLE FOR FREELANCER WORK]
 
 
-
-
-
-#### Adata - Modern &amp; Minimal Multipurpose Bootstrap Admin Dashboard
 
 
 #
 
+
+#### Adata - Modern &amp; Minimal Multipurpose Bootstrap Admin Dashboard
 
 Adata is a powerful admin dashboard template based on Bootstrap and SASS for all kinds of backend projects. It is a fully responsive template based on Bootstrap’s latest version. This design is very easy to customize and all files and code have been well organized and nicely. Adata is a simple and beautiful admin template with tons of flexible components, every one designed to be harmonious and coded to be combined into beautiful applications.
 
