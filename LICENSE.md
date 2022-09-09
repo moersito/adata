@@ -2,7 +2,7 @@
 
 #### Commercial license
 
-If you want to use lightGallery to develop commercial sites, themes, projects,
+If you want to use `Adata - Modern & Minimal Multipurpose Bootstrap Admin Dashboard` to develop commercial sites, themes, projects,
 and applications, the Commercial license is the appropriate license. With this
 option, your source code is kept proprietary.
 
