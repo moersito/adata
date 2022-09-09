@@ -125,3 +125,10 @@ The multiple numbers of layout and color theme options that are available with t
 	<li>Nestable jQuery- <a href="http://dbushell.com/" target="_blank">http://dbushell.com/</a></li>
 	<li>nouislider- <a href="https://refreshless.com/nouislider/" target="_blank">https://refreshless.com/nouislider/</a></li>
 </ul>
+
+
+
+# 
+
+
+**NOTE: Please note that all images used in the template are presented only for the demo purposes. Images come from https://www.pexels.com/. Images are subjected to the copyright of their authors. It is the responsibility of the buyer to check its copyright before usage.**
